@@ -1,4 +1,4 @@
-Jekyll/Boostrap theme based website <<work in progres>>>
+Jekyll/Boostrap theme based website //work in progress//
 ====================
 
 Theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
