@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+
+    <body id="page-top" class="index">
+
+    {{ content }}
+  	
+  	<ul class="list-inline detailed linkbar text-center">
+				    
+				    <li>
+                        <a class="page-scroll" href="{{site.baseurl}}">Home</a>
+                    </li> 
+
+                    <li>
+                        <a class="page-scroll" href="{{site.baseurl}}/about/">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="{{site.baseurl}}/legalservices/">Legal Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="{{site.baseurl}}/experience/">Experience</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="{{site.baseurl}}/fees/">Fees</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="{{site.baseurl}}/#contact_map">Contact</a>
+                    </li>
+	</ul>
+    {% include js.html %}
+
+    </body>
+</html>

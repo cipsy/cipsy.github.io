@@ -1,0 +1,126 @@
+.detailed 
+{
+
+	text-align: center;
+    color: #222;
+    background-color: #e2e0c8;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+
+}
+
+.detailed.logo 
+{
+	font-size: 30px;
+	height: auto;
+	width: 280px;
+    float: right;
+}
+
+.detailed.heading
+
+{
+
+	font-size: 45px;
+    line-height: 75px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    font-weight: 100;
+    text-align: left;
+    padding-left: 175px;
+
+}
+
+.detailed.subheading
+
+{
+
+	font-size: 50px;
+    line-height: 75px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+
+}
+
+.detailed.content
+
+{
+
+	font-size: 20px;
+    line-height: 18px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+
+
+.detailed.linkbar
+
+{
+
+	font-size: 17px;
+    line-height: 35px;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+    padding-top: 0px
+
+}
+
+.detailed.list-group-item
+
+{
+
+	background-color: rgb(53, 43, 48);
+
+}
+
+
+dd {
+
+	text-align: justify;
+	padding-bottom: 15px;
+}
+
+dd.indentat {
+
+	padding-left: 70px;
+	font-weight: 100;
+}
+
+dt {
+
+	font-weight: 500;
+}
+ 
+
+.detailed a
+{
+
+color: black;
+}
+
+.detailed hr
+{
+
+color: black;
+border-top: 1px solid rgba(0, 0, 0, 0.17);
+}
+
+.detailed a:hover
+{
+
+text-decoration: none;
+;
+}
+
+.span_style {
+
+	font-weight:300; 
+	background-color: beige;
+
+}
