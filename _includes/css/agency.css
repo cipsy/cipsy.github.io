@@ -247,9 +247,10 @@ fieldset[disabled] .btn-xl.active {
 @media(min-width:768px) {
     .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     margin-left: 0;
-    top: 6px;
+    margin-left: 0;
+    padding-top: 7px;
     width: auto;
-    height: 60px;
+    height: auto;
 
     }
 
@@ -342,7 +343,7 @@ header .intro-text .intro-heading {
         font-size: 50px;
         font-weight: 100;
         line-height: 50px;
-        /*text-shadow: 3px 4px 5px #000; */
+        text-shadow: 2px -1px 8px #FFF;
     }
 
     header .intro-text .intro-heading {
@@ -606,17 +607,7 @@ float: right;
     max-width: 400px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
-    background: rgba({{ site.color.primary | hex_to_rgb | join: ',' }}, .9);
-}
+
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1;
