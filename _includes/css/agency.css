@@ -228,7 +228,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-    outline: 0;
+    outline: 1;
+    cursor: default;
     color: #{{ site.color.primary }};
 }
 
@@ -289,6 +290,18 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 2em;
+    }
+
+    .navbar-default .nav >li >a:hover {
+        outline: 1px;
+        line-height: 20px;
+        color: #e52600;
+        font-weight: 400;
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        transition: all 1s;
+    
+
     }
 }
 
