@@ -1,6 +1,6 @@
 jQuery(function ($) {
         function init_map1() {
-            var myLocation = new google.maps.LatLng(44.398099, 26.067037);
+            var myLocation = new google.maps.LatLng(44.443827, 26.110617);
             var mapOptions = {
                 center: myLocation,
                 zoom: 16

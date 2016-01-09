@@ -219,9 +219,10 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .nav li a {
+    cursor: default;
     text-transform: uppercase;
     font-family: "Titillium Web",Helvetica,Arial,sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     letter-spacing: 1px;
     color: #999999;
 }
@@ -234,6 +235,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-nav>.active>a {
+    cursor: default;
     border-radius: 3px;
     color: #fff;
     background-color: transparent;
@@ -279,6 +281,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-nav>.active>a {
+        cursor: default;
         border-radius: 3px;
         font-weight: 500;
     }
@@ -293,6 +296,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .nav >li >a:hover {
+        cursor: default;
         outline: 1px;
         line-height: 20px;
         color: #e52600;
@@ -314,7 +318,7 @@ header {
     background-repeat: none;
     background-position: top;
     width: auto;
-    height: 1000px;
+    height: 900px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -383,7 +387,7 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
 
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Titillium Web',Helvetica,Arial,sans-serif;
     font-size: 16px;
 
     font-style: italic;
@@ -400,56 +404,50 @@ section h3.section-subheading {
 
 {
     text-align: center;
-    color: white;
-    background-color: rgb(53, 43, 48);
     margin-bottom: 25px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Titillium Web',Helvetica,Arial,sans-serif;
     font-size: 30px;
     font-weight: 100;
     letter-spacing: 1px;
     line-height: 30px;
-    padding-top: 25px;
+    padding-top: 10px;
     padding-bottom: 0px;
+
 }
+
+.services.md6
+{
+
+    padding-left: 0px; 
+    padding-right: 0px; 
+
+} 
 
 .services.heading
  {
     
     font-size: 50px;
     line-height: 75px;
-    padding-bottom: 50px;
+    padding-bottom: 0px; 
     margin-bottom: 0px;
+    text-align: justify;
 
  }
 
-.legalservices
-
+ .services.logo 
 {
-    text-align: center;
-    color: black;
-    background-color: rgb(53, 43, 48);
-    margin-bottom: 25px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 30px;
-    font-weight: 100;
-    letter-spacing: 1px;
-    line-height: 30px;
-    padding-top: 60px;
-    padding-bottom: 0px;
+    height: auto;
+    width: 280px;
+    float: right;
+    padding-top: 33px;
 }
 
-.services.heading
- {
-    
-    font-size: 50px;
-    line-height: 75px;
-    padding-bottom: 50px;
-    margin-bottom: 0px;
 
- }
-.fa.services-icons
+.services.services-icons
 {
-    font-size: 70px;
+    font-size: 60px;
+    color: #D40000;
 }
 
 
@@ -457,11 +455,12 @@ section h3.section-subheading {
 
  {
 
-    font-size: 30px;
+    font-size: 27px;
     line-height: 30px;
     letter-spacing: 3px;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    font-weight: 300;
 
  }
 
@@ -469,10 +468,22 @@ section h3.section-subheading {
 
 {
 
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 22px;
+    line-height: 40px;
     letter-spacing: 1px;
-    padding-bottom: 0px;
+    padding-bottom: 15px;
+    padding-right: 0px;
+    text-align: justify;
+
+}
+
+.services.icon-content
+
+{
+
+    font-size: 19px;
+    line-height: 22px;
+    letter-spacing: 1px;
 
 }
 
@@ -578,6 +589,8 @@ float: right;
 }
 
 
+
+
 .experience
 
 {
@@ -607,6 +620,295 @@ float: right;
     margin-bottom: 0px;
 
  }
+
+
+.testemonial-panel 
+{
+    border: 3px solid transparent;
+    border-color: #ecf0f1;
+    border-radius: 6px;
+    height: 177px;
+    position: relative;
+}
+
+.paddless-left {
+
+    padding-left: 0px;
+}
+
+.paddless-right {
+
+    padding-right: 0px;
+}
+
+.testemonial {
+
+    font-family: "Titillium Web",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    color: black;
+    font-size: 20px;
+    line-height: 25px;
+    font-style: italic;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+
+.testemonial.person {
+
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+
+}
+
+.testemonial.company {
+
+    font-style: normal;
+    font-weight: 200;
+    
+}
+
+.paddmore-up{
+
+padding-top: 70px;
+
+}
+
+client-logo {
+
+    height: auto;
+    width: 280px;
+
+}
+
+#fullscreen {
+
+position: relative;
+
+}
+
+.row.footer {
+
+    position: absolute;
+    right: 7px;
+    left: 7px;
+    bottom: 7px;
+    z-index: 1030;
+    font-size: 15px;
+    line-height: 15px;
+    font-family: "Titillium Web",Helvetica,Arial,sans-serif;
+    color: aliceblue;
+
+
+ }
+
+ .row.footer a {
+ 
+    color:#222;
+    font-weight: 300;
+    outline: 0px;
+
+ }
+
+.footer a:hover
+ {
+    cursor: default;
+    font-weight: 500;
+    outline: 1px;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.linkbar
+
+{
+    font-family: "Titillium Web",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    color: black;
+    font-size: 17px;
+    line-height: 20px;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+    padding-top: 0px
+
+}
+
+
+.linkbar a
+
+{
+   color: black;
+
+}
+
+.linkbar a:hover
+
+{
+    cursor: default;
+    color:#D40000;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+    
+    header  {
+
+        height: 400px;
+
+    }
+
+    
+    .navbar-default.navbar-brand {
+        padding: 7px;
+        width: 250px;
+        height: auto;
+    }
+
+    .navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    padding: 10px 17px;
+    margin-top: 11px;
+    margin-bottom: 13px;
+    background-color: #464545;
+    background-image: none;
+    border: 1px solid #464545;
+    border-radius: 4px;
+    }
+
+    .footer {
+
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #portfolio .portfolio-item {
     right: 0;
@@ -966,9 +1268,11 @@ section#contact .text-danger {
 }
 
 footer {
-    padding: 25px 0;
+    padding: 5px 0;
     text-align: center;
     font-size: 15px;
+    color: #bbb;
+    background: transparent;
 }
 
 footer span.copyright {
