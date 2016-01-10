@@ -192,7 +192,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Titillium Web",Helvetica,Arial,cursive;
     max-width: 261px;
-    padding: 0px;
+    padding: 7px;
     width: auto;
     color: #e52600;
     font-size: 30px;
@@ -450,6 +450,10 @@ section h3.section-subheading {
     padding-top: 33px;
 }
 
+.trophy-row {
+
+
+}
 
 .services.services-icons
 {
@@ -796,10 +800,23 @@ position: relative;
 
 
 
+@media only screen and (min-width: 767px), only screen and (min-device-width: 767px) {
 
+    .trophy-row-mobile {
 
+        display: none;
+    }
 
+    .logo-row-mobile {
 
+        display: none;
+    }
+
+    .contact-mobile {
+
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
     
@@ -810,8 +827,8 @@ position: relative;
     }
 
     
-    .navbar-default.navbar-brand {
-        padding: 7px;
+    .navbar-brand {
+        padding-top: 10px;
         width: 250px;
         height: auto;
     }
@@ -820,7 +837,7 @@ position: relative;
     position: relative;
     float: right;
     margin-right: 15px;
-    padding: 10px 17px;
+    padding: 5px 5px;
     margin-top: 11px;
     margin-bottom: 13px;
     background-color: #464545;
@@ -833,6 +850,81 @@ position: relative;
 
         display: none;
     }
+
+    .trophy-row-mobile {
+
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .services.content {
+
+        padding: 5px 15px;
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .trophy-row {
+
+        display: none;
+    }
+
+    .paddmore-up {
+
+        padding-top: 0px;
+    }
+
+    .paddless-left {
+
+        padding-left: 15px;
+    }
+
+    .paddless-right {
+
+        padding-right: 15px;
+    }
+
+
+    .md6 {
+
+        display: none;
+    }
+
+    .testemonial-panel {
+        height: 200px;
+    }
+
+    .logo-row {
+
+        display: none;
+    }
+
+    .logo-row-mobile {
+
+        padding-left: 24px;
+        padding-bottom: 24px;
+    }
+
+    .client-logo {
+        width: auto;
+        height: 35px;
+
+    }
+
+    .contact-mobile {
+
+        background: #464545 ;
+        color: aliceblue;
+        font-family: "Titillium Web",Helvetica,Arial,sans-serif;
+        font-weight: 200;
+        font-size: 22px;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+
+    }
+    
 }
 
 
